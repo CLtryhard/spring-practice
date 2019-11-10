@@ -1,6 +1,7 @@
-package soundsystem;
+package soundsystem.impl;
 
 import org.springframework.stereotype.Component;
+import soundsystem.CompactDisc;
 
 /**
  * @author Lance
