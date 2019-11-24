@@ -43,5 +43,4 @@ public class CDPlayerTest {
                 outRule.getLog());
     }
 
-
 }
