@@ -19,6 +19,7 @@ public class CDPlayer implements MediaPlayer {
      * 方式一:利用构造器注入
      * @param cd
      */
+    //@Inject
     @Autowired
     public CDPlayer(CompactDisc cd) {
         this.cd = cd;

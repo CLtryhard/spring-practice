@@ -26,6 +26,7 @@
         <org.aspectj.version>1.9.4</org.aspectj.version>
         <cglib.version>3.3.0</cglib.version>
         <org.lombok.version>1.18.10</org.lombok.version>
+        <stefanbirkner.system-rules.version>1.19.0</stefanbirkner.system-rules.version>
     </properties>
 
     <dependencyManagement>
@@ -83,6 +84,11 @@
                 <artifactId>spring-test</artifactId>
                 <version>${org.springframework.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.github.stefanbirkner</groupId>
+                <artifactId>system-rules</artifactId>
+                <version>${stefanbirkner.system-rules.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
